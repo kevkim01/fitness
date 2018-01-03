@@ -1,0 +1,23 @@
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+#name-form{
+  margin-bottom: 15px;
+}
+
+#fname {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+#lname {
+  margin-right: auto;
+}
+
+#e-p {
+  width: 458px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}

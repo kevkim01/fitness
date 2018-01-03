@@ -11,11 +11,13 @@ import { AppComponent } from './app.component';
 
 import { environment } from './../environments/environment';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
+import { EmailFormComponent } from './email-form/email-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppNavbarComponent
+    AppNavbarComponent,
+    EmailFormComponent
   ],
   imports: [
     BrowserModule,
