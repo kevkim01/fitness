@@ -1,7 +1,11 @@
-.starter-template {
+#sign-up-form {
   padding: 3rem 1.5rem;
   text-align: center;
+  width: 60%;
+  left: 42%;
+  margin: auto;
 }
+
 #name-form{
   margin-bottom: 15px;
 }
@@ -20,4 +24,24 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
+}
+
+#home-display {
+  width: 30%;
+  text-align:center;
+  margin:auto;
+}
+
+#h-image {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#h-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#d-row {
+  margin-bottom: 20px;
 }
