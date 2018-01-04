@@ -27,7 +27,7 @@
 }
 
 #home-display {
-  width: 30%;
+  width: 40%;
   text-align:center;
   margin:auto;
 }
@@ -35,6 +35,7 @@
 #h-image {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: 10%;
 }
 
 #h-text {
@@ -43,5 +44,12 @@
 }
 
 #d-row {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#d1-row {
+  margin-left: auto;
+  margin-right: auto;
 }
