@@ -1,0 +1,59 @@
+#sign-up-form {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  width: 60%;
+  left: 42%;
+  margin: auto;
+}
+
+#title {
+  margin-bottom: 20px;
+}
+
+#name-form{
+  margin-bottom: 15px;
+}
+
+#fname {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+#lname {
+  margin-right: auto;
+}
+
+#e-p {
+  width: 458px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#home-display {
+  width: 40%;
+  text-align:center;
+  margin:auto;
+}
+
+#h-image {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10%;
+}
+
+#h-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#d-row {
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#d1-row {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,18 @@
+#sign-up-form {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  width: 60%;
+  left: 42%;
+  margin: auto;
+}
+
+#e-p {
+  width: 458px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#title {
+  margin-bottom: 20px;
+}
