@@ -21,7 +21,7 @@ export class AuthService {
           }
 
   // Returns true if user is logged in
-  get authenticated(): boolean {
+  get authenticated(): any {
     return this.authState !== null;
   }
 

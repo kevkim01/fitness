@@ -13,7 +13,7 @@ export class AppComponent {
   private isLoggedIn: Boolean;
 
   constructor(public authService: AuthService, private router: Router) {
-    this.authService.af.authState.subscribe(
+    this.authService.authState.subscribe(
       (auth) => {
         if(auth == null){
           //not logged in
