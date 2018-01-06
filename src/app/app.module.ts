@@ -20,6 +20,9 @@ import { AccountComponent } from './account/account.component';
 //routes
 import { RouterModule, Routes } from '@angular/router';
 
+//service class
+import { AuthService } from './core/auth.service';
+
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -56,7 +59,7 @@ export const firebaseCofig = {
     NgbModule.forRoot(),
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
