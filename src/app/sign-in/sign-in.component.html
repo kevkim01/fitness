@@ -4,18 +4,28 @@
       <h1>sign in</h1>
     </div>
     <div class="form-group" id="email-pword-form">
-      <div class="col-xs-1" id="e-p">
-        <input class="form-control" type="email" name="email" placeholder="email">
-      </div>
-      <div class="col-xs-1" id="e-p">
-        <input class="form-control" type="password" name="pass" placeholder="password">
-      </div>
-      <div class="col-xs-1" id="e-p">
-        <a routerLink="/account"><input class="btn btn-primary" type="submit" name="login" value="log in"></a>
-      </div>
-      <div class="col-xs-1">
-        <a routerLink="/home">create an account</a>
-      </div>
+      <form autocomplete="off" novalidate [formGroup]="form">
+
+        <!-- retrieve user email -->
+        <div class="col-xs-1" id="e-p">
+          <input class="form-control" type="email" name="email" placeholder="email" formControlName="email">
+        </div>
+
+        <!-- retrieve user password -->
+        <div class="col-xs-1" id="e-p">
+          <input class="form-control" type="password" name="pass" placeholder="password" formControlName="password">
+        </div>
+
+        <!-- submit button -->
+        <div class="col-xs-1" id="e-p">
+          <input class="btn btn-primary" type="submit" name="login" value="log in" (click)="loginEmail()">
+        </div>
+
+        <!-- link back to sign up/home page -->
+        <div class="col-xs-1">
+          <a routerLink="/home">create an account</a>
+        </div>
+    </form>
     </div>
   </div>
 </main>
